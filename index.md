@@ -14,14 +14,7 @@ Abstract to go here.
 
 Broken down into the specific sizes of the content of ComPile in the different LLVM-based languages contained in ComPile:
 
-| Language | C | C++ | Julia | Rust | Swift | Total |
-|:-------------|:----|:----|:----|:----|:----|:----|
-| Size (Bitcode) | 13 GB | 81 GB | 197 GB | 482 GB | 5 GB | 778 GB |
-| Size (Text) | 61 GB | 334 GB | 1292 GB | 1868 GB | 22 GB | 3577 GB |
-| Deduplicated Size (Bitcode) | 8 GB | 67 GB | 130 GB | 310 GB | 4 GB | 518 GB |
-| Deduplicated Size (Text) | 34 GB | 266 GB | 856 GB | 1221 GB | 19 GB | 2395 GB |
-
-To arrive at a permissively licensed subset we filter the dataset for the following 4 licenses:
+![ComPileTable](ComPileTable.png)
 
 The dataset is filtered for [MIT](https://spdx.org/licenses/MIT.html), [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html), [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause-Clear.html), and [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html) licenses.
 
