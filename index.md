@@ -27,16 +27,16 @@ The dataset is filtered for [MIT](https://spdx.org/licenses/MIT.html), [Apache-2
 <center>
     <h2>Statistical Analyses</h2>
     <h3>Distribution of ComPile's Compile Times</h3>
-    <img src="o3_cpp_hist.pdf" width="750" alt="Distribution of ComPile's Compile Times" />
+    <img src="o3_cpp_hist.png" width="750" alt="Distribution of ComPile's Compile Times" />
     <h3>Scatter Plot of Compile Times</h3>
-    <img src="compile_time_plot_cxx.pdf" width="750" alt="Scatter Plot of Compile Times" />
+    <img src="compile_time_plot_cxx.png" width="750" alt="Scatter Plot of Compile Times" />
     <h3>Relative Wall Time Distribution</h3>
-    <img src="rel_wall_dist.pdf" width="650" alt="Relative Wall Time Distribution" />
+    <img src="rel_wall_dist.png" width="650" alt="Relative Wall Time Distribution" />
     <h3>Absolute Time vs. Relative Time</h3>
-    <img src="abs_rel_plot2.pdf" width="650" alt="Absolute Time vs. Relative Time" />
+    <img src="abs_rel_plot2.png" width="650" alt="Absolute Time vs. Relative Time" />
     <h3>Outlier Function Extraction</h3>
-    <img src="outlier_extraction_flowchart.pdf" width="600" alt="Outlier Function Extraction Flowchart" />
-    <img src="gvn_outlier_fn.pdf" width="650" alt="Outliers" />
+    <img src="outlier_extraction_flowchart.png" width="700" alt="Outlier Function Extraction Flowchart" />
+    <img src="gvn_outlier_fn.png" width="650" alt="Outliers" />
     <h2>Authors</h2>
 </center>
 
