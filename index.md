@@ -3,28 +3,42 @@ layout: default
 title: IR Around the World
 ---
 
-
-## Abstract
+<center>
+    <h2>Abstract</h2>
+</center>
 
 Within this walk, we present statistical analyses of the properties of the generated IR, and the optimization pipeline itself. We quantify a number of factors related to the optimization pipeline including which optimizations are run, how long they take, and perform an analysis of the code at the end on a massive corpus of multi-language IR. We anticipate our results to be a starting point for deeper specific investigations on issues like the optimality of the current pass pipelines and help to better understand where compile time is spent. Initial results are presented here but the talk will focus on knowledge filtered out of this data and more we will gather in the meantime.
 
-## ComPile at a Glance
-
-![Treemap](ComPile_PieChart.png)
+<center>
+    <h2>ComPile at a Glance</h2>
+    <img src="ComPile_PieChart.png" width="600" alt="ComPile Pie Chart" />
+</center>
 
 Broken down into the specific sizes of the content of ComPile in the different LLVM-based languages contained in ComPile:
 
-![ComPileTable](ComPileTable.png)
+<center>
+    <img src="ComPileTable.png" alt="ComPile Table" />
+</center>
 
 The dataset is filtered for [MIT](https://spdx.org/licenses/MIT.html), [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html), [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause-Clear.html), and [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html) licenses.
 
 > See the _LLVM-IR-Dataset-Utils - Scalable Tooling for IR Datasets_ technical talk on the dataset tooling behind ComPile!
 
-## Statistical Analyses
-
-tbd
-
-## Authors
+<center>
+    <h2>Statistical Analyses</h2>
+    <h3>Distribution of ComPile's Compile Times</h3>
+    <img src="o3_cpp_hist.pdf" width="750" alt="Distribution of ComPile's Compile Times" />
+    <h3>Scatter Plot of Compile Times</h3>
+    <img src="compile_time_plot_cxx.pdf" width="750" alt="Scatter Plot of Compile Times" />
+    <h3>Relative Wall Time Distribution</h3>
+    <img src="rel_wall_dist.pdf" width="650" alt="Relative Wall Time Distribution" />
+    <h3>Absolute Time vs. Relative Time</h3>
+    <img src="abs_rel_plot2.pdf" width="650" alt="Absolute Time vs. Relative Time" />
+    <h3>Outlier Function Extraction</h3>
+    <img src="outlier_extraction_flowchart.pdf" width="600" alt="Outlier Function Extraction Flowchart" />
+    <img src="gvn_outlier_fn.pdf" width="650" alt="Outliers" />
+    <h2>Authors</h2>
+</center>
 
 <div style="display:table;margin: 0 auto;">
 <div class="cards">
@@ -55,8 +69,7 @@ tbd
 </div>
 </div>
 
-## Corresponding Authors
-
-> Who else should be added here?
-
-* Johannes Doerfert ([jdoerfert@llnl.gov](mailto:jdoerfert@llnl.gov?subject=IRAroundTheWorld))
+<center>
+    <h2>Corresponding Author</h2>
+    Johannes Doerfert (<a href="mailto:jdoerfert@llnl.gov">jdoerfert@llnl.gov</a>)
+</center>
